@@ -1,0 +1,239 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+body {
+  margin: 10px 80px;  
+  background: #3c61c7;
+  position: relative;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.container{
+	width: 100%;
+	height: 630px;
+	border-radius: 8px;
+	display: flex;
+	margin-top: 15px;
+}
+
+.box-1{
+	background: #EDB506;
+	width: 500px;
+	height: 630px;
+	border-radius: 8px 0px 0px 8px; 
+}
+.box-1 img{
+	margin-top: 208px;
+	margin-left: 105px;
+   	max-width: 100%;
+}
+
+.box-2{	
+	height: 630px;
+	width: 705px;
+	background: white;
+	
+	border-radius: 0px 8px 8px 0px;
+	
+}
+
+.login{
+	width: 85%;
+	height: 550px;	
+	margin-top: 40px;
+	margin-left: 55px; 
+}
+
+form h1{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+form input{
+	width: 225px;
+	padding: 18px;			
+	border-radius: 50px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	outline:0;
+	border: 1px solid #DADADA;
+}
+
+form .inlongo{
+	width: 515px;
+}
+
+.btnregistro{	
+	width: 555px;
+	background: #5376D8;
+	border: 0;
+	color: white;
+	cursor:pointer;	
+}
+
+.btngoogle{
+	width: 555px;
+	background: #EA433A;
+	border: 0;
+	color: white;
+	cursor:pointer;		
+}
+
+.btnface{
+	background: #3D5A92;
+	width: 555px;
+	border: 0;
+	color: white;
+	cursor:pointer;		
+}
+
+hr{
+	width: 550px;	
+	margin-left: 25px;
+	margin-bottom: 15px;	
+	border-top: 1px solid #E2E2E2;
+}
+
+p{
+	margin-top: -45px;
+	text-align: center;
+	color: #5376D8;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.icon-google{
+	bottom: 203px;
+	margin-left: 220px;
+	position: absolute;
+	color: white;
+	font-size: 13px;	
+}
+
+.icon-face{
+	bottom: 138px;
+	margin-left: 216px;
+	position: absolute;
+	color: white;
+	font-size: 13px;	
+}
+
+@media screen and (max-width: 1350px) {
+
+.container{	
+	display: inline-block;	
+}	
+
+.box-1{		
+		width: 700px;		
+		margin-left: 220px;
+		border-radius: 8px; 
+	}
+
+.box-2{
+
+	margin-left: 220px;	
+	border-radius: 8px;
+	
+}
+.box-1 img{
+	margin-top: 208px;
+	margin-left: 304px;
+   	max-width: 100%;
+}
+form input{
+	width: 230px;	
+}
+
+form .inlongo{
+	width: 530px;
+}
+
+hr{
+	width: 480px;	
+	
+}
+
+.icon-google{
+	bottom: 163px;	
+	margin-left: 225px;	
+}
+
+.icon-face{	
+	bottom: 97px;
+	margin-left: 220px;	
+}
+
+.btnregistro{	
+	width: 565px;		
+}
+
+.btngoogle{
+	width: 565px;			
+}
+
+.btnface{	
+	width: 565px;			
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.container{	
+	display: inline-block;	
+}	
+
+.box-1{		
+				
+		margin-left: 80px;
+		border-radius: 8px; 
+	}
+
+.box-2{
+
+	margin-left: 80px;	
+	border-radius: 8px;
+	
+}
+.box-1 img{
+	margin-top: 208px;
+	margin-left: 304px;
+   	max-width: 100%;
+}
+form input{
+	width: 230px;	
+}
+
+form .inlongo{
+	width: 530px;
+}
+
+hr{
+	width: 480px;	
+	
+}
+
+.icon-google{
+	bottom: 163px;	
+	margin-left: 225px;	
+}
+
+.icon-face{	
+	bottom: 97px;
+	margin-left: 220px;	
+}
+
+.btnregistro{	
+	width: 565px;		
+}
+
+.btngoogle{
+	width: 565px;			
+}
+
+.btnface{	
+	width: 565px;			
+}
